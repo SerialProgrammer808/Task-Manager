@@ -52,7 +52,7 @@ Then, a block of if statements will validate the user input and execute the corr
 Due the `while True:` line of code, this program will run indefinitely until the user responds with "Quit". This program is designed like that in order to avoid having to re-run everytime you want to do something with your list of tasks.
 
 ### add_task
-The `add_task()` function takes a single list an argument and begins by asks for a task description and a date which are stored as separate variables. Those variables are then passed into the `Task` initializer method, which handles the date validation, and appended to the list given in the argument. The function only returns a string, confirming that the task has been added.
+The `add_task()` function takes a single list an argument and begins by asking for a task description and a date which are stored as separate variables. Those variables are then passed into the `Task` initializer method, which handles the date validation, and appended to the list given in the argument. The function only returns a string, confirming that the task has been added.
 ####
 ```python
 def add_task(list):
